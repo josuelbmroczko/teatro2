@@ -62,7 +62,7 @@ function Navbar() {
 
   return (
     <NavbarWrapper isSticky={isSticky}>
-      <Navbar/>
+       
       <Menu>
         {/* Botão exibido apenas em dispositivos móveis */}
         {isMobile && <MenuButton onClick={toggleMenu}>☰</MenuButton>}

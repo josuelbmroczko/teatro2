@@ -1,4 +1,5 @@
 import React from 'react';
+import Navbar from './barraMenu/barra';
 
 function Contato() {
   return (
@@ -11,6 +12,7 @@ function Contato() {
         fontFamily: "'Garamond', serif",
       }}
     >
+      <Navbar/>
       {/* Título da Seção */}
       <div style={{ textAlign: 'center', marginBottom: '40px' }}>
         <h2
