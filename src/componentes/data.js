@@ -36,7 +36,7 @@ export const data = {
         linkYoutube: 'https://www.youtube.com/',
         whatsapp: '615156156',
         telefone: ' ',
-        nomeTopo: 'Teatro ',
+        nomeTopo: 'ACCEC  ',
         textoPrincipalDaEmpresa: 'ACCEC CURSO TÉCNICO PROFISSIONALIZANTE DE TEATRO',
         texto: "ASSOCIAÇÃO CASA DE CULTURA EDUARDO CABÚS",
         botao: "informações: (mensagem)Whatsapp  21 981266619",
@@ -146,7 +146,7 @@ export const data = {
     },
 
     fotter: {
-        titulo1: 'Teatro ',
+        titulo1: 'ACCEC  ',
         texto: 'Promovendo cultura e entretenimento com espetáculos de alta qualidade para todos os públicos.',
         titulo2: 'Visite-nos',
         semana: '✔ Seg-Sex',
@@ -164,7 +164,7 @@ export const data = {
         texto6: 'Grandes Estreias',
         texto7: 'Festival de Teatro',
         texto8: 'Peças Contemporâneas',
-        Copyrigh: '© Copyright Teatro '
+        Copyrigh: '© Copyright ACCEC  '
     },
     whatsapp: {
         imgWhatsapp: whatsapp,
