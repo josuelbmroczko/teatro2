@@ -7,6 +7,7 @@ import SectionAlunlo from './componentes/SectionAluno';
 import Escola from './componentes/Escola';
 import Administracao from './componentes/Administracao';
 import Galeria from './componentes/galeria';
+import Contato from './componentes/Contato';
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
         <Route path="/escola" element={<Escola />} />
         <Route path="/administracao" element={<Administracao />} />
         <Route path="/galeria" element={<Galeria />} />
+        <Route path="/contato" element={<Contato />} />
+
       </Routes>
     </Router>
   );

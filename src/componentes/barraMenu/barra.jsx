@@ -134,15 +134,17 @@ function Navbar() {
 </MenuItem>
 
 
-            <MenuItem>
-              <Link
-                to="#contato"
-                onClick={(e) => scrollToSection(e, 'contato')}
-                style={{ fontWeight: activeSection === 'contato' ? 'bold' : 'normal' }}
-              >
-                CONTATO
-              </Link>
-            </MenuItem>
+<MenuItem>
+  <Link
+    to="/contato" // Navega para a página de contato
+    style={{ fontWeight: activeSection === 'contato' ? 'bold' : 'normal' }}
+  >
+    CONTATO
+  </Link>
+</MenuItem>
+
+
+
           </MenuItemsWrapper>
         )}
       </Menu>
