@@ -105,7 +105,13 @@ export const StyledApresentacao = styled.div`
         max-width: 600px;
         width:100%;
     }
-
+    span{
+        color: aliceblue;
+      
+        left: 3%;
+        z-index: 2;
+        position: relative;
+    }
     p {
         font-size: 18px;
         font-weight: 100;

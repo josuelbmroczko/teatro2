@@ -49,14 +49,17 @@ export default function Topo() {
                         <title>{data.topoMenu.nomeTopo}</title>
                         <meta name='description' content={data.topoMenu.textoPrincipalDaEmpresa} />
                         <meta name='keywords' content={data.topoMenu.texto}/>
+                    
                     </Helmet>
                     <li><h3>{data.topoMenu.nomeTopo}</h3></li>
                     <li><a href={`tel:${data.topoMenu.telefone}`}> {data.topoMenu.telefone}</a></li>
+                   
                 </ul>
             </StyledTopo>
             <StyledApresentacao className={apresentacaoVisible ? 'visible' : ''} backgroundImage={data.topoMenu.imagemFundo} >
                 <h1>{data.topoMenu.textoPrincipalDaEmpresa}</h1>
                 <p>{data.topoMenu.texto}</p>
+                <span>{data.topoMenu.botao}</span>
             </StyledApresentacao>
         </>
     );
